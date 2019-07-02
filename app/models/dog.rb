@@ -3,6 +3,7 @@ class Dog
   @@all = []
   def initialize(name,breed,age)
     self.name, self.breed, self.age = name, breed, age
-    self.class.all < self
+    self.class.all << self
   end
+
 end
